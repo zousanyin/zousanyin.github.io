@@ -1,0 +1,121 @@
+
+meterpreter > ps
+
+Process List
+============
+
+ PID    PPID   Name                                       Arch  Session  User               Path
+ ---    ----   ----                                       ----  -------  ----               ----
+ 0      0      [System Process]
+ 4      0      System
+ 368    4      smss.exe
+ 416    580    svchost.exe
+ 460    452    csrss.exe
+ 464    580    svchost.exe
+ 500    452    wininit.exe
+ 508    492    csrss.exe
+ 548    492    winlogon.exe
+ 580    500    services.exe
+ 604    500    lsass.exe
+ 612    500    lsm.exe
+ 716    580    svchost.exe
+ 784    580    svchost.exe
+ 884    580    svchost.exe
+ 936    580    svchost.exe
+ 952    460    conhost.exe
+ 1020   580    svchost.exe
+ 1080   580    svchost.exe
+ 1200   580    spoolsv.exe
+ 1232   580    dsamain.exe
+ 1252   580    Microsoft.ActiveDirectory.WebServices.exe
+ 1436   580    svchost.exe
+ 1468   580    svchost.exe
+ 1492   580    dns.exe
+ 1568   580    HpAmsStor.exe
+ 1616   580    inetinfo.exe
+ 1692   580    isastg.exe
+ 1796   460    conhost.exe                                x64   0        IIS APPPOOL\bando  C:\Windows\System32\conhost.exe
+ 1804   580    sqlservr.exe
+ 1832   580    sqlservr.exe
+ 1952   580    sqlservr.exe
+ 2056   580    ProLiantMonitor.exe
+ 2180   580    svchost.exe
+ 2264   580    ReportingServicesService.exe
+ 2552   580    ccSvcHst.exe
+ 2664   580    snmp.exe
+ 2736   580    sqlwriter.exe
+ 2776   580    svchost.exe
+ 2812   580    TeamViewer_Service.exe
+ 2984   580    svchost.exe
+ 3188   580    hpqams.exe
+ 3216   4884   rmid.exe
+ 3368   580    mspadmin.exe
+ 3424   10576  cmd.exe                                    x64   0        IIS APPPOOL\bando  C:\Windows\System32\cmd.exe
+ 3652   580    svchost.exe
+ 3704   580    msdtc.exe
+ 3716   716    WmiPrvSE.exe
+ 3724   716    WmiPrvSE.exe
+ 3744   5516   javaw.exe
+ 4148   580    svchost.exe
+ 4180   716    unsecapp.exe
+ 4184   4572   javaw.exe
+ 4212   580    wspsrv.exe
+ 4248   580    IsaManagedCtrl.exe
+ 4344   580    W3Prefch.exe
+ 4688   716    iashost.exe
+ 4816   580    fdlauncher.exe
+ 4884   6088   cmd.exe
+ 5016   580    Smc.exe
+ 5072   4816   fdhost.exe
+ 5080   460    conhost.exe
+ 5260   9656   mshta.exe                                  x64   0        IIS APPPOOL\bando  C:\Windows\System32\mshta.exe
+ 5336   716    SavUI.exe
+ 5516   6088   cmd.exe
+ 5564   5956   cmd.exe                                    x64   0        IIS APPPOOL\bando  C:\Windows\System32\cmd.exe
+ 5908   8632   mshta.exe                                  x64   0        IIS APPPOOL\bando  C:\Windows\System32\mshta.exe
+ 5956   2984   w3wp.exe                                   x64   0        IIS APPPOOL\bando  C:\Windows\System32\inetsrv\w3wp.exe
+ 6044   5956   cmd.exe                                    x64   0        IIS APPPOOL\bando  C:\Windows\System32\cmd.exe
+ 6084   460    conhost.exe
+ 6088   580    ArcGISServer.exe
+ 6272   6044   mshta.exe                                  x64   0        IIS APPPOOL\bando  C:\Windows\System32\mshta.exe
+ 6324   3216   ArcSOC.exe
+ 6332   460    conhost.exe                                x64   0        IIS APPPOOL\bando  C:\Windows\System32\conhost.exe
+ 6436   3216   ArcSOC.exe
+ 6512   3216   ArcSOC.exe
+ 6616   8872   firefox.exe
+ 7288   460    conhost.exe                                x64   0        IIS APPPOOL\bando  C:\Windows\System32\conhost.exe
+ 7584   1932   rundll32.exe                               x86   0        IIS APPPOOL\bando  C:\Windows\SysWOW64\rundll32.exe
+ 7628   460    conhost.exe                                x64   0        IIS APPPOOL\bando  C:\Windows\System32\conhost.exe
+ 8348   12052  cmd.exe                                    x64   0        IIS APPPOOL\bando  C:\Windows\System32\cmd.exe
+ 8436   8808   cmd.exe                                    x64   0        IIS APPPOOL\bando  C:\Windows\System32\cmd.exe
+ 8632   7160   cmd.exe                                    x64   0        IIS APPPOOL\bando  C:\Windows\System32\cmd.exe
+ 8872   11192  firefox.exe
+ 8968   3424   mshta.exe                                  x64   0        IIS APPPOOL\bando  C:\Windows\System32\mshta.exe
+ 9296   8436   mshta.exe                                  x64   0        IIS APPPOOL\bando  C:\Windows\System32\mshta.exe
+ 9360   3188   cmd.exe
+ 9388   460    conhost.exe                                x64   0        IIS APPPOOL\bando  C:\Windows\System32\conhost.exe
+ 9436   10320  cmd.exe                                    x86   0        IIS APPPOOL\bando  C:\Windows\SysWOW64\cmd.exe
+ 9592   460    conhost.exe
+ 9656   5956   cmd.exe                                    x64   0        IIS APPPOOL\bando  C:\Windows\System32\cmd.exe
+ 10112  7712   sc.exe                                     x86   0        IIS APPPOOL\bando  C:\Windows\SysWOW64\sc.exe
+ 10116  11192  MtxHotPlugService.exe
+ 10272  5956   cmd.exe                                    x64   0        IIS APPPOOL\bando  C:\Windows\System32\cmd.exe
+ 10320  10272  public.exe                                 x86   0        IIS APPPOOL\bando  C:\DATA\WEB\bando\Uploads\images\duan\public.exe
+ 10408  460    conhost.exe                                x64   0        IIS APPPOOL\bando  C:\Windows\System32\conhost.exe
+ 10480  460    conhost.exe                                x64   0        IIS APPPOOL\bando  C:\Windows\System32\conhost.exe
+ 10656  460    conhost.exe                                x64   0        IIS APPPOOL\bando  C:\Windows\System32\conhost.exe
+ 10840  9360   driverquery.exe
+ 10888  8348   mshta.exe                                  x64   0        IIS APPPOOL\bando  C:\Windows\System32\mshta.exe
+ 11064  580    taskhost.exe
+ 11148  460    conhost.exe                                x64   0        IIS APPPOOL\bando  C:\Windows\System32\conhost.exe
+ 11160  464    dwm.exe
+ 11192  11140  explorer.exe
+ 11384  8872   firefox.exe
+ 11672  3216   ArcSOC.exe
+ 11748  716    WmiPrvSE.exe
+ 11772  8872   firefox.exe
+ 11932  10320  cmd.exe                                    x86   0        IIS APPPOOL\bando  C:\Windows\SysWOW64\cmd.exe
+ 11964  460    conhost.exe                                x64   0        IIS APPPOOL\bando  C:\Windows\System32\conhost.exe
+ 11976  460    conhost.exe                                x64   0        IIS APPPOOL\bando  C:\Windows\System32\conhost.exe
+ 12152  5564   public.exe                                 x86   0        IIS APPPOOL\bando  C:\DATA\WEB\bando\Uploads\images\duan\public.exe
+ 12204  10996  rundll32.exe                               x86   0        IIS APPPOOL\bando  C:\Windows\SysWOW64\rundll32.exe
